@@ -1,0 +1,124 @@
+LOGISTIC REGRESSION
+Model coefficients: 
+5.184177462463266E-4    2.447343815165294E-4   -0.004636645185614514  0.0024779391053953     0.04194754740838465    31.366683086174614   5.361481759341486    3.083154527323887    64.52614629637227    0.0  22.21225656636384    -0.1374194184687222  0.0  0.018851904590047642   64.63242870287678    1.2201238395101082  0.3274341808215295  3.281778604251672    
+5.103916003161542E-4    2.5507340411848377E-4  -0.004141468543235817  0.002399320896101968   0.019883544128722057   29.25991679577903    5.537035213249917    -1.1254109980261713  67.63728873906419    0.0  -19.158432748977827  -0.1363500866206135  0.0  0.015640351015166084   65.84688056208967    -3.236340096319569  -3.714105325114734  -3.3742675345288924  
+-0.0010288093465624809  -4.998077856350132E-4  0.008778113728850331   -0.004877260001497268  -0.061831091537106704  -60.626599881953645  -10.898516972591402  -1.9577435292977161  -132.16343503543646  0.0  -3.0538238173860113  0.2737695050893357   0.0  -0.034492255605213726  -130.47930926496645  2.0162162568094613  3.3866711442932043  0.09248893027722037  
+Zero precision: 0.9021823022113847
+One precision: 0.9575870573895822
+Two precision: 0.9713618713017753
+Zero recall: 0.9250814332247557
+One recall: 0.9838362068965517
+Two recall: 1.0
+Total accuracy: 0.9736111111111111
+
+
+
+DECISION TREE
+DecisionTreeClassificationModel (uid=dtc_c190bcc4e739) of depth 5 with 37 nodes
+  If (feature 16 <= 0.04705338989677823)
+   If (feature 17 <= 0.4840878476499514)
+    If (feature 3 <= 7.5)
+     If (feature 11 <= 2.353812586127699)
+      Predict: 0.0
+     Else (feature 11 > 2.353812586127699)
+      If (feature 7 <= 0.5)
+       Predict: 1.0
+      Else (feature 7 > 0.5)
+       Predict: 0.0
+    Else (feature 3 > 7.5)
+     If (feature 13 <= 2.6088813628899836)
+      If (feature 1 <= 59.5)
+       Predict: 0.0
+      Else (feature 1 > 59.5)
+       Predict: 1.0
+     Else (feature 13 > 2.6088813628899836)
+      If (feature 2 <= 1464.5)
+       Predict: 0.0
+      Else (feature 2 > 1464.5)
+       Predict: 1.0
+   Else (feature 17 > 0.4840878476499514)
+    If (feature 16 <= 0.014919570648836228)
+     If (feature 2 <= 1074.0)
+      If (feature 11 <= 55.88793103448276)
+       Predict: 0.0
+      Else (feature 11 > 55.88793103448276)
+       Predict: 1.0
+     Else (feature 2 > 1074.0)
+      Predict: 2.0
+    Else (feature 16 > 0.014919570648836228)
+     Predict: 0.0
+  Else (feature 16 > 0.04705338989677823)
+   If (feature 13 <= 3.1026993484331366E-4)
+    If (feature 8 <= 0.5)
+     Predict: 2.0
+    Else (feature 8 > 0.5)
+     Predict: 0.0
+   Else (feature 13 > 3.1026993484331366E-4)
+    If (feature 17 <= 0.007259552042160737)
+     If (feature 13 <= 0.8312421058030762)
+      Predict: 1.0
+     Else (feature 13 > 0.8312421058030762)
+      Predict: 0.0
+    Else (feature 17 > 0.007259552042160737)
+     If (feature 1 <= 10.5)
+      If (feature 11 <= 3.079459621960843)
+       Predict: 0.0
+      Else (feature 11 > 3.079459621960843)
+       Predict: 1.0
+     Else (feature 1 > 10.5)
+      If (feature 17 <= 0.23058651562214508)
+       Predict: 0.0
+      Else (feature 17 > 0.23058651562214508)
+       Predict: 0.0
+
+Zero precision: 0.8861549306508154
+One precision: 0.9956140403725172
+Two precision: 1.0
+Zero recall: 0.993485342019544
+One recall: 0.9795258620689655
+Two recall: 1.0
+Total accuracy: 0.9854166666666667
+
+
+
+NAIVE BAYES
+Zero precision: 0.6933382009809368
+One precision: 0.7971234089313514
+Two precision: 0.4909864114263042
+Zero recall: 0.6807817589576547
+One recall: 0.8706896551724138
+Two recall: 0.9707317073170731
+Total accuracy: 0.8444444444444444
+
+
+
+RANDOM FOREST (30 trees)
+Zero precision: 0.9033825686050858
+One precision: 1.0
+Two precision: 1.0
+Zero recall: 1.0
+One recall: 0.9827586206896551
+Two recall: 1.0
+Total accuracy: 0.9888888888888889
+
+
+
+MULTI-LAYER PERCEPTRON [18,30,30,3] 
+Zero precision: 0.8285667324128863
+One precision: 0.9358459357277882
+Two precision: 0.8432183801775147
+Zero recall: 0.9250814332247557
+One recall: 0.959051724137931
+Two recall: 0.9317073170731708
+Total accuracy: 0.9479166666666666
+
+
+
+FULL ENSEMBLE
+Zero precision: 0.8803536046334399
+One precision: 0.9934246753606669
+Two precision: 1.0
+Zero recall: 0.990228013029316
+One recall: 0.978448275862069
+Two recall: 1.0
+Total accuracy: 0.9840277777777777
